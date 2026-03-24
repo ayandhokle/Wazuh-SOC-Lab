@@ -1,0 +1,9 @@
+<group name="ssh_bruteforce">
+  <rule id="100005" level="10">
+    <if_sid>2502</if_sid>
+    <same_source_ip />
+    <frequency>5</frequency>
+    <timeframe>60</timeframe>
+    <description>SSH brute force detected (5 failed logins from same IP)</description>
+  </rule>
+</group>
